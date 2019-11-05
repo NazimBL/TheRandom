@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/carte">
+
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:id="@+id/congrats"
+    android:text="CONGRATULATION"
+    android:textSize="30dp"
+    android:textColor="#000001"
+    />
+<TextView
+    android:layout_marginTop="40dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="Well Done Keep Uping your Score and Compare it with your friends to see who's the best Randomizer"
+    android:textStyle="italic"
+    android:textSize="20dp"
+    />
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+
+    android:src="@drawable/king"/>
+
+</LinearLayout>

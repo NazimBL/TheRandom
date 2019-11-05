@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:background="@drawable/bg1"
+    tools:context="com.nazim2.therandom.GameScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:id="@+id/best_score"
+        android:typeface="serif"
+        android:layout_alignParentRight="true"
+        android:text="Best Score :"
+        android:textSize="25dp"/>
+
+
+
+    <TextView
+        android:id="@+id/score_view"
+        android:text="Your Score :"
+        android:textColor="#FFFFFF"
+        android:typeface="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        />
+
+
+    <TextView
+        android:id="@+id/random_text"
+        android:text="random"
+        android:layout_marginBottom="15dp"
+        android:textColor="#FFFFFF"
+        android:typeface="serif"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+       android:layout_marginTop="15dp"
+        android:textSize="25dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_marginBottom="10dp"
+        style="@style/CustomProgressBar"
+        android:max="10"
+        android:progress="1"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:progressDrawable="@drawable/custom_bar2"
+        android:layout_height="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/ok_button"
+        android:text="OK"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        style="@style/main_buttons"
+        android:typeface="serif"
+       android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+
+        />
+
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="wrap_content"
+        android:layout_above="@+id/pb"
+       android:hint="      Tape here      "
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
+
+</LinearLayout>
